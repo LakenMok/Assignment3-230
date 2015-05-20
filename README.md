@@ -1,17 +1,17 @@
 # Assignment3-230
 Test and Debug for Assignment 3
 
-package test;
+	package test;
 
-import static org.junit.Assert.*;
-import main.Controller;
-import main.ControlDeviceType;
+	import static org.junit.Assert.*;
+	import main.Controller;
+	import main.ControlDeviceType;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+	import org.junit.After;
+	import org.junit.Before;
+	import org.junit.Test;
 
-public class ControllerTest {
+	public class ControllerTest {
 
 	Controller myApp;
 	
