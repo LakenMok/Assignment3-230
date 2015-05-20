@@ -24,7 +24,6 @@ Test and Debug for Assignment 3
 		public void tearDown() throws Exception {
 		}
 
-	
 //--- This section tests adding valid devices to list of controlled devices ---	
 	
 		@Test
@@ -33,6 +32,4 @@ Test and Debug for Assignment 3
 			assertTrue("Device id=1111 should be in list", myApp.isDeviceInList("1111"));
 			assertEquals("There should be 1 device in list of controlled devices", myApp.getNumDevices(), 1);
 		}
-
-
 	}
